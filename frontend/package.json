@@ -1,0 +1,55 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://127.0.0.1:8080",
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.12",
+    "@mui/material": "^5.15.12",
+    "@mui/x-date-pickers": "^6.19.6",
+    "@splidejs/react-splide": "^0.7.12",
+    "@stripe/react-stripe-js": "^2.6.2",
+    "@stripe/stripe-js": "^3.0.10",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "dayjs": "^1.11.10",
+    "leaflet": "^1.9.4",
+    "leaflet-gesture-handling": "^1.2.2",
+    "react": "^18.2.0",
+    "react-countdown-circle-timer": "^3.2.1",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "react-multi-date-picker": "^4.4.1",
+    "react-router-dom": "^6.22.2",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-linux": "export HTTPS=true&&SSL_CRT_FILE=./cert/server.cert&&SSL_KEY_FILE=./cert/server.key react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
