@@ -20,7 +20,6 @@ We recommend you use chrome for running the site. When you open the web for the 
 
 ## Initial Loading Page When Loading For the First Time
 
-![Screen Shot 2024-04-19 at 11.44.35 pm](https://hackmd.io/_uploads/rJzUreg-R.png)
 
 Click “advance” and click “continue to localhost(unsafe)”. 
 
@@ -42,18 +41,15 @@ https://www.mongodb.com/
 
 You need to use the Google MFA to login with these details. Please make sure the dashboard is on test mode when you are navigating the dashboard. 
 
-![Screen Shot 2024-04-19 at 11.45.05 pm](https://hackmd.io/_uploads/ryGurleZ0.png)
 
 The account is not fully activated so you can only use the testing card and testing data provided by stripe to test our website. And we can’t fully register our website since it requires us to register our business and provide real business details. 
 
 The payment system is divided into the provider side and customer side.  
-![Screen Shot 2024-04-19 at 11.45.42 pm](https://hackmd.io/_uploads/ByIcHexb0.png)
 
 The customer and their payment related items (eg. Credit card added) will be stored in the customer account on the stripe. You can navigate to the customer related details on the sidebar “customer” field. 
  
 And there are connected accounts for provider. Only a connected account has the ability to receive money from our platform through stripe. 
 
-![Screen Shot 2024-04-19 at 11.46.02 pm](https://hackmd.io/_uploads/S1_irgl-R.png)
 
 The status ”Restricted” means that users haven’t provided the details to become a provider so they can’t create listing or receive payment from stripe. More details of this will be given in the sections below (how to use the system). 
 
